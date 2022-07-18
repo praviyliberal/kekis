@@ -1,0 +1,21 @@
+﻿<Window x:Class="kvartira_part2.Door"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kvartira_part2"
+        mc:Ignorable="d"
+        Title="Door" Height="350" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" FontFamily="Tahoma" FontSize="16">
+    <Grid>
+        <Label x:Name="label1_door" Content="Длина двери:" HorizontalAlignment="Left" Margin="24,54,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="doorsLengthTxb_door" HorizontalAlignment="Left" Margin="140,57,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="25"/>
+        <Label x:Name="label2_door" Content="Высота двери:" HorizontalAlignment="Left" Margin="21,95,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="doorsHeightTxb_door" HorizontalAlignment="Left" Margin="140,99,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="25"/>
+        <Button x:Name="doorPaycheck_door" Content="Расчет" HorizontalAlignment="Left" Margin="175,144,0,0" VerticalAlignment="Top" Click="DoorPaycheck_door_Click"/>
+        <Label x:Name="label3_door" Content="Итого:" HorizontalAlignment="Left" Margin="20,274,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="doorsFinaleTxb_door" HorizontalAlignment="Left" Margin="83,276,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="25"/>
+        <Label x:Name="label4_door" Content="Стоимость:" HorizontalAlignment="Left" Margin="42,16,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="doorsPayTxb_door" HorizontalAlignment="Left" Margin="140,20,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="25"/>
+
+    </Grid>
+</Window>
